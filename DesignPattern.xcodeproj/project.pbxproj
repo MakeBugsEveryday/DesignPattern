@@ -14,6 +14,8 @@
 		51640D0622759EE900B57208 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51640D0522759EE900B57208 /* Builder.swift */; };
 		51640D092275A66200B57208 /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51640D082275A66200B57208 /* Prototype.swift */; };
 		51640D0C2275AB7100B57208 /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51640D0B2275AB7100B57208 /* Adapter.swift */; };
+		51640D0F2275D7BA00B57208 /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51640D0E2275D7BA00B57208 /* Bridge.swift */; };
+		51640D122275DC8700B57208 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51640D112275DC8700B57208 /* Filter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +39,8 @@
 		51640D0522759EE900B57208 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
 		51640D082275A66200B57208 /* Prototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype.swift; sourceTree = "<group>"; };
 		51640D0B2275AB7100B57208 /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
+		51640D0E2275D7BA00B57208 /* Bridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
+		51640D112275DC8700B57208 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 		51640CF3227598B600B57208 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				51640D102275DC7D00B57208 /* Filter Pattern */,
+				51640D0D2275D7A700B57208 /* Bridge Pattern */,
 				51640D0A2275AB6600B57208 /* Adapter Pattern */,
 				51640D072275A65100B57208 /* Prototype Pattern */,
 				51640D0422759EA700B57208 /* Builder Pattern */,
@@ -126,6 +132,22 @@
 				51640D0B2275AB7100B57208 /* Adapter.swift */,
 			);
 			path = "Adapter Pattern";
+			sourceTree = "<group>";
+		};
+		51640D0D2275D7A700B57208 /* Bridge Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				51640D0E2275D7BA00B57208 /* Bridge.swift */,
+			);
+			path = "Bridge Pattern";
+			sourceTree = "<group>";
+		};
+		51640D102275DC7D00B57208 /* Filter Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				51640D112275DC8700B57208 /* Filter.swift */,
+			);
+			path = "Filter Pattern";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,8 +211,10 @@
 				51640D0322759E5B00B57208 /* Singleton.swift in Sources */,
 				51640D092275A66200B57208 /* Prototype.swift in Sources */,
 				51640D0022759C3F00B57208 /* Color.swift in Sources */,
+				51640D0F2275D7BA00B57208 /* Bridge.swift in Sources */,
 				51640CFD227598E700B57208 /* Shape.swift in Sources */,
 				51640D0622759EE900B57208 /* Builder.swift in Sources */,
+				51640D122275DC8700B57208 /* Filter.swift in Sources */,
 				51640D0C2275AB7100B57208 /* Adapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
