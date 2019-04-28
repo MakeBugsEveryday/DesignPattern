@@ -12,6 +12,8 @@
 		51640D0022759C3F00B57208 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51640CFF22759C3F00B57208 /* Color.swift */; };
 		51640D0322759E5B00B57208 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51640D0222759E5B00B57208 /* Singleton.swift */; };
 		51640D0622759EE900B57208 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51640D0522759EE900B57208 /* Builder.swift */; };
+		51640D092275A66200B57208 /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51640D082275A66200B57208 /* Prototype.swift */; };
+		51640D0C2275AB7100B57208 /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51640D0B2275AB7100B57208 /* Adapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +35,8 @@
 		51640CFF22759C3F00B57208 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		51640D0222759E5B00B57208 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		51640D0522759EE900B57208 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		51640D082275A66200B57208 /* Prototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype.swift; sourceTree = "<group>"; };
+		51640D0B2275AB7100B57208 /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,8 @@
 		51640CF3227598B600B57208 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				51640D0A2275AB6600B57208 /* Adapter Pattern */,
+				51640D072275A65100B57208 /* Prototype Pattern */,
 				51640D0422759EA700B57208 /* Builder Pattern */,
 				51640D0122759E4E00B57208 /* Singleton Pattern */,
 				51640CFE22759C2500B57208 /* Abstract Factory Pattern */,
@@ -104,6 +110,22 @@
 				51640D0522759EE900B57208 /* Builder.swift */,
 			);
 			path = "Builder Pattern";
+			sourceTree = "<group>";
+		};
+		51640D072275A65100B57208 /* Prototype Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				51640D082275A66200B57208 /* Prototype.swift */,
+			);
+			path = "Prototype Pattern";
+			sourceTree = "<group>";
+		};
+		51640D0A2275AB6600B57208 /* Adapter Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				51640D0B2275AB7100B57208 /* Adapter.swift */,
+			);
+			path = "Adapter Pattern";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,9 +187,11 @@
 			files = (
 				51640CF5227598B600B57208 /* main.swift in Sources */,
 				51640D0322759E5B00B57208 /* Singleton.swift in Sources */,
+				51640D092275A66200B57208 /* Prototype.swift in Sources */,
 				51640D0022759C3F00B57208 /* Color.swift in Sources */,
 				51640CFD227598E700B57208 /* Shape.swift in Sources */,
 				51640D0622759EE900B57208 /* Builder.swift in Sources */,
+				51640D0C2275AB7100B57208 /* Adapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
