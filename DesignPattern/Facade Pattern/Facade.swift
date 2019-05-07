@@ -23,11 +23,42 @@ import Cocoa
  注意事项：在层次化结构中，可以使用外观模式定义系统中每一层的入口。
  */
 
-protocol Facade {
+protocol FacadeProtocol {
     
     func facade()
 }
 
-class Facade: NSObject {
+class FacadeClass1: NSObject, FacadeProtocol {
 
+    func facade() {
+        
+    }
+}
+
+class FacadeClass2: NSObject, FacadeProtocol {
+    
+    func facade() {
+        
+    }
+}
+
+
+class FacadeDemo: NSObject {
+    
+    private var class1: FacadeClass1?
+    private var class2: FacadeClass2?
+
+    func shapeMaker() {
+        
+        class1 = FacadeClass1.init()
+        class2 = FacadeClass2.init()
+    }
+    
+    func facade1() {
+        class1?.facade()
+    }
+    
+    func facade2() {
+        class2?.facade()
+    }
 }
