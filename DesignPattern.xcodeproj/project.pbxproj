@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51128C56228858AC00411DBC /* Mediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51128C55228858AC00411DBC /* Mediator.swift */; };
+		51128C5922885A3100411DBC /* Memento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51128C5822885A3100411DBC /* Memento.swift */; };
+		51128C5D22885E3E00411DBC /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51128C5C22885E3E00411DBC /* Observer.swift */; };
 		51640CF5227598B600B57208 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51640CF4227598B600B57208 /* main.swift */; };
 		51640CFD227598E700B57208 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51640CFC227598E700B57208 /* Shape.swift */; };
 		51640D0022759C3F00B57208 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51640CFF22759C3F00B57208 /* Color.swift */; };
@@ -40,6 +43,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		51128C55228858AC00411DBC /* Mediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mediator.swift; sourceTree = "<group>"; };
+		51128C5822885A3100411DBC /* Memento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memento.swift; sourceTree = "<group>"; };
+		51128C5C22885E3E00411DBC /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
 		51640CF1227598B600B57208 /* DesignPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		51640CF4227598B600B57208 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		51640CFC227598E700B57208 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
@@ -72,6 +78,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51128C542288588F00411DBC /* Mediator Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				51128C55228858AC00411DBC /* Mediator.swift */,
+			);
+			path = "Mediator Pattern";
+			sourceTree = "<group>";
+		};
+		51128C5722885A2500411DBC /* Memento Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				51128C5822885A3100411DBC /* Memento.swift */,
+			);
+			path = "Memento Pattern";
+			sourceTree = "<group>";
+		};
+		51128C5B22885E2A00411DBC /* Observer Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				51128C5C22885E3E00411DBC /* Observer.swift */,
+			);
+			path = "Observer Pattern";
+			sourceTree = "<group>";
+		};
 		51640CE8227598B600B57208 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +121,9 @@
 		51640CF3227598B600B57208 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				51128C5B22885E2A00411DBC /* Observer Pattern */,
+				51128C5722885A2500411DBC /* Memento Pattern */,
+				51128C542288588F00411DBC /* Mediator Pattern */,
 				5187D3562282D9FC00364B45 /* Iterator Pattern */,
 				5187D3532282D67800364B45 /* Interpreter Pattern */,
 				5187D3502282D26000364B45 /* Command Pattern */,
@@ -311,6 +344,7 @@
 				5187D34F2282CAF500364B45 /* ResponsibilityChain.swift in Sources */,
 				51640D092275A66200B57208 /* Prototype.swift in Sources */,
 				5192A02722808D5900DDA7FC /* Facade.swift in Sources */,
+				51128C56228858AC00411DBC /* Mediator.swift in Sources */,
 				5192A02422808AC000DDA7FC /* Decorator.swift in Sources */,
 				51640D0022759C3F00B57208 /* Color.swift in Sources */,
 				5187D3522282D27100364B45 /* Command.swift in Sources */,
@@ -322,7 +356,9 @@
 				5187D3552282D68200364B45 /* Interpreter.swift in Sources */,
 				5192A02D2281D75F00DDA7FC /* Proxy.swift in Sources */,
 				51640D0622759EE900B57208 /* Builder.swift in Sources */,
+				51128C5922885A3100411DBC /* Memento.swift in Sources */,
 				51640D122275DC8700B57208 /* Filter.swift in Sources */,
+				51128C5D22885E3E00411DBC /* Observer.swift in Sources */,
 				51640D0C2275AB7100B57208 /* Adapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
