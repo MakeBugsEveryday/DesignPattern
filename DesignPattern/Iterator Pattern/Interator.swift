@@ -60,10 +60,14 @@ fileprivate class NameRepository: ContainerProtocol {
         
         func next() -> NSObject? {
             
+            guard let nameR = self.nameRepository else {
+                return nil
+            }
+            
             if hasNext() {
-                let obj = nameRepository?.names[index]
-                index += 1
-                return obj as! NSObject
+                let str = nameR.names[self.index]
+                self.index += 1
+                return str as NSObject
             }
             
             return nil
