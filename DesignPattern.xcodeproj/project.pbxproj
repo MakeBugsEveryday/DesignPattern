@@ -28,6 +28,9 @@
 		5192A02722808D5900DDA7FC /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5192A02622808D5900DDA7FC /* Facade.swift */; };
 		5192A02A2281D3E900DDA7FC /* Flyweight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5192A0292281D3E900DDA7FC /* Flyweight.swift */; };
 		5192A02D2281D75F00DDA7FC /* Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5192A02C2281D75F00DDA7FC /* Proxy.swift */; };
+		51E8B738228A84F100DDC06A /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E8B737228A84F100DDC06A /* State.swift */; };
+		51E8B73B228A886600DDC06A /* NullObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E8B73A228A886600DDC06A /* NullObject.swift */; };
+		51E8B73E228A8AD400DDC06A /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E8B73D228A8AD400DDC06A /* Strategy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -65,6 +68,9 @@
 		5192A02622808D5900DDA7FC /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
 		5192A0292281D3E900DDA7FC /* Flyweight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flyweight.swift; sourceTree = "<group>"; };
 		5192A02C2281D75F00DDA7FC /* Proxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proxy.swift; sourceTree = "<group>"; };
+		51E8B737228A84F100DDC06A /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		51E8B73A228A886600DDC06A /* NullObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NullObject.swift; sourceTree = "<group>"; };
+		51E8B73D228A8AD400DDC06A /* Strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,9 @@
 		51640CF3227598B600B57208 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				51E8B73C228A8AC900DDC06A /* Strategy Pattern */,
+				51E8B739228A885800DDC06A /* Null Object Pattern */,
+				51E8B736228A84E600DDC06A /* State Pattern */,
 				51128C5B22885E2A00411DBC /* Observer Pattern */,
 				51128C5722885A2500411DBC /* Memento Pattern */,
 				51128C542288588F00411DBC /* Mediator Pattern */,
@@ -282,6 +291,30 @@
 			path = "Proxy Pattern";
 			sourceTree = "<group>";
 		};
+		51E8B736228A84E600DDC06A /* State Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				51E8B737228A84F100DDC06A /* State.swift */,
+			);
+			path = "State Pattern";
+			sourceTree = "<group>";
+		};
+		51E8B739228A885800DDC06A /* Null Object Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				51E8B73A228A886600DDC06A /* NullObject.swift */,
+			);
+			path = "Null Object Pattern";
+			sourceTree = "<group>";
+		};
+		51E8B73C228A8AC900DDC06A /* Strategy Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				51E8B73D228A8AD400DDC06A /* Strategy.swift */,
+			);
+			path = "Strategy Pattern";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -342,6 +375,7 @@
 				51640CF5227598B600B57208 /* main.swift in Sources */,
 				51640D0322759E5B00B57208 /* Singleton.swift in Sources */,
 				5187D34F2282CAF500364B45 /* ResponsibilityChain.swift in Sources */,
+				51E8B738228A84F100DDC06A /* State.swift in Sources */,
 				51640D092275A66200B57208 /* Prototype.swift in Sources */,
 				5192A02722808D5900DDA7FC /* Facade.swift in Sources */,
 				51128C56228858AC00411DBC /* Mediator.swift in Sources */,
@@ -355,8 +389,10 @@
 				5187D3582282DA0600364B45 /* Interator.swift in Sources */,
 				5187D3552282D68200364B45 /* Interpreter.swift in Sources */,
 				5192A02D2281D75F00DDA7FC /* Proxy.swift in Sources */,
+				51E8B73B228A886600DDC06A /* NullObject.swift in Sources */,
 				51640D0622759EE900B57208 /* Builder.swift in Sources */,
 				51128C5922885A3100411DBC /* Memento.swift in Sources */,
+				51E8B73E228A8AD400DDC06A /* Strategy.swift in Sources */,
 				51640D122275DC8700B57208 /* Filter.swift in Sources */,
 				51128C5D22885E3E00411DBC /* Observer.swift in Sources */,
 				51640D0C2275AB7100B57208 /* Adapter.swift in Sources */,

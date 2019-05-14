@@ -52,7 +52,7 @@ private class Originator: NSObject {
 
 private class CateTaker {
     
-    private let mementoList = [Memento]()
+    private var mementoList = [Memento]()
     
     func add(status: Memento) {
         

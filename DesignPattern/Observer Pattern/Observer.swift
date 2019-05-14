@@ -32,16 +32,7 @@ import Cocoa
 private class Subject: NSObject {
     
     private var observers = [ObserverProtocol]()
-    var state: Int = 0 {
-//        set {
-//            self.state = newValue
-//            self.notifyAllObservers()
-//        }
-//        
-//        get {
-//            return self.state
-//        }
-    }
+    var state: Int = 0
     
     func attach(ob: ObserverProtocol)  {
         self.observers.append(ob)
